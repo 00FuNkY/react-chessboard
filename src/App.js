@@ -3,7 +3,7 @@ import ChessBoard from './components/ChessBoard'
 
 function App() {
   return (
-    <div className="App">
+    <div className="block">
       <ChessBoard rows={8} columns={8} />
     </div>
   ); 
