@@ -24,7 +24,7 @@ class Row extends Component {
                 
         return (
             line.map(
-                cell =>  <ChessCel color={cell} /> 
+                (cell, index) =>  <ChessCel key={"c" + index} color={cell} /> 
             )
         )
     }

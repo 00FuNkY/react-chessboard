@@ -5,6 +5,9 @@
     background-color: white;
     
 }
+.white:hover {
+    background-color: red;
+}
 
 .black{
     display: inline-flex;
