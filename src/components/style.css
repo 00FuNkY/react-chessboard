@@ -5,9 +5,9 @@
     background-color: white;
     
 }
-.white:hover {
+/* .white:hover {
     background-color: red;
-}
+} */
 
 .black{
     display: inline-flex;
@@ -20,7 +20,7 @@
 	position: relative;
 	margin: 300px auto 0;
     width: auto;
-    max-width: 400px;
+    max-width: 400px;  /* this is the max width that can fuck everything */
 	height: auto;
 	background: linear-gradient(0deg, #000, #272727);
 }
