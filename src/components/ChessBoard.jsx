@@ -8,7 +8,7 @@ function Board(props) {
   return (
     <div>
         {finalBoard.map(
-            line => <div><ChessRow color={line} columns={props.columns}/></div>
+            (line, index) => <div><ChessRow key={"r" + index} color={line} columns={props.columns}/></div>
         )}
     </div>
     );
@@ -20,7 +20,7 @@ function CreateBoard(rows, firstCell) {
     board.push(firstCell);
     firstCell = !firstCell;
   }
-  console.log(rows +" " +board)
+
   return board;
 }
 
